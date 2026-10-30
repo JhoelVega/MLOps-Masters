@@ -28,4 +28,6 @@ Dataset: Obesity Levels Dataset (Kaggle). https://www.kaggle.com/datasets/fateme
 
 Variable objetivo: NObeyesdad.
 
+Objetivo del modelo: Estimar el nivel de obesidad de una persona para apoyar la identificación temprana de factores de riesgo asociados a sobrepeso y obesidad.
+
 # Paso 3. Levantar los servicios y comprobar Prefect
