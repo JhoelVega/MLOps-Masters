@@ -26,9 +26,9 @@ Se utilizará un dataset descargado de Kaggle para realizar la predicción de pr
 
 Dataset: Clasificación de Precios de Telefonía Móvil (Kaggle). kaggle kernels pull bryanlh27/clasificaci-n-de-precios-de-telefon-a-m-vil
 
-Variable objetivo: NObeyesdad.
+Variable objetivo: Rango de precios
 
-Tipo de problema: Clasificación multiclase, debido a que el modelo debe predecir varias carateristicas definidos en la variable objetivo NObeyesdad.
+Tipo de problema: Clasificación multiclase, debido a que el modelo debe predecir varias carateristicas definidos en la variable objetivo Rango de precios.
 
 Objetivo del modelo: Estimar el mejor nivel de precio de un celular para ser competivo en el mercado, con un rango de precios sobre sus caracteristicas.
 
