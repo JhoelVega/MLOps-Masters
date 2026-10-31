@@ -22,14 +22,18 @@ PyYAML
 # Clonar y preparar el entorno (los demás integrantes del equipo):
 
 # Paso 2. Caso de uso
-Se utilizará un dataset descargado de Kaggle para realizar la predicción de precios de venta telefonia movil Para abordar este desafío, se han recopilado datos de ventas de teléfonos móviles de diversas empresas y se busca identificar patrones y relaciones entre las características técnicas de los dispositivos.En este contexto altamente competitivo, estimar el precio de venta de los teléfonos móviles es crucial para el éxito de su empresa
+Se utilizará un dataset descargado de Kaggle para realizar la predicción de precios de venta telefonia movil Para abordar este desafío, se han recopilado datos de ventas de teléfonos móviles de diversas empresas y se busca identificar patrones y relaciones entre las características técnicas de los dispositivos. En este contexto altamente competitivo, estimar el precio de venta de los teléfonos móviles es crucial para el éxito de su empresa
 
-Dataset: Clasificación de Precios de Telefonía Móvil (Kaggle). kaggle kernels pull bryanlh27/clasificaci-n-de-precios-de-telefon-a-m-vil
+Dataset: Clasificación de Precios de Telefonía Móvil (Kaggle). kaggle kernels pull bryanlh27/clasificaci-n-de-precios-de-telefon-a-m-vil. https://www.kaggle.com/code/bryanlh27/clasificaci-n-de-precios-de-telefon-a-m-vil
 
 Variable objetivo: Rango de precios
 
-Tipo de problema: Clasificación multiclase, debido a que el modelo debe predecir varias carateristicas definidos en la variable objetivo Rango de precios.
+Tipo de problema: Clasificación multiclase, debido a que el modelo debe predecir varias caraterísticas definidos en la variable objetivo Rango de precios.
 
-Objetivo del modelo: Estimar el mejor nivel de precio de un celular para ser competivo en el mercado, con un rango de precios sobre sus caracteristicas.
+Objetivo del modelo: Estimar el mejor nivel de precio de un celular para ser competitivo en el mercado, con un rango de precios sobre sus características.
 
 # Paso 3. Levantar los servicios y comprobar Prefect
+Ejecutar docker compose up -d
+Comprobar que los servicios responden:
+http://localhost:5000: debe cargar la UI de MLflow.
+http://localhost:4200: debe cargar la UI de Prefect.
