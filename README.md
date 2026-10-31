@@ -34,6 +34,9 @@ Objetivo del modelo: Estimar el mejor nivel de precio de un celular para ser com
 
 # Paso 3. Levantar los servicios y comprobar Prefect
 Ejecutar docker compose up -d
+
 Comprobar que los servicios responden:
+
 http://localhost:5000: debe cargar la UI de MLflow.
+
 http://localhost:4200: debe cargar la UI de Prefect.
