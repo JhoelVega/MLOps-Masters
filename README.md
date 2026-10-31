@@ -22,14 +22,14 @@ PyYAML
 # Clonar y preparar el entorno (los demás integrantes del equipo):
 
 # Paso 2. Caso de uso
-Se utilizará un dataset descargado de Kaggle para realizar la predicción del nivel de obesidad de una persona a partir de hábitos alimenticios, actividad física y características demográficas.
+Se utilizará un dataset descargado de Kaggle para realizar la predicción de precios de venta telefonia movil Para abordar este desafío, se han recopilado datos de ventas de teléfonos móviles de diversas empresas y se busca identificar patrones y relaciones entre las características técnicas de los dispositivos.En este contexto altamente competitivo, estimar el precio de venta de los teléfonos móviles es crucial para el éxito de su empresa
 
-Dataset: Obesity Levels Dataset (Kaggle). https://www.kaggle.com/datasets/fatemehmehrparvar/obesity-levels
+Dataset: Clasificación de Precios de Telefonía Móvil (Kaggle). kaggle kernels pull bryanlh27/clasificaci-n-de-precios-de-telefon-a-m-vil
 
 Variable objetivo: NObeyesdad.
 
-Tipo de problema: Clasificación multiclase, debido a que el modelo debe predecir uno de varios niveles de obesidad definidos en la variable objetivo NObeyesdad.
+Tipo de problema: Clasificación multiclase, debido a que el modelo debe predecir varias carateristicas definidos en la variable objetivo NObeyesdad.
 
-Objetivo del modelo: Estimar el nivel de obesidad de una persona para apoyar la identificación temprana de factores de riesgo asociados a sobrepeso y obesidad.
+Objetivo del modelo: Estimar el mejor nivel de precio de un celular para ser competivo en el mercado, con un rango de precios sobre sus caracteristicas.
 
 # Paso 3. Levantar los servicios y comprobar Prefect
