@@ -13,7 +13,7 @@ def inference_flow():
     )
 
     datos = pd.read_csv(
-        "data/mobile_price.csv"
+        "data/test_mobile_price.csv"
     ).head(50)
 
     predicciones = model.predict(datos)
@@ -28,6 +28,9 @@ def inference_flow():
         f"predictions/predicciones_{fecha}.csv"
     )
 
+    from pathlib import Path
+
+    Path("predictions").mkdir(parents=True, exist_ok=True)
     datos.to_csv(
         salida,
         index=False,

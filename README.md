@@ -40,3 +40,12 @@ Comprobar que los servicios responden:
 http://localhost:5000: debe cargar la UI de MLflow.
 
 http://localhost:4200: debe cargar la UI de Prefect.
+
+## Actividad 2: Pipeline y empaquetado
+Crear Pipeline de entrenamiento: ingesta → entrenamiento → evaluación → registro.
+
+Crear Pipeline de inferencia se cargó el modelo por su alias champion.
+
+API de inferencia: se cargó el modelo champion.
+
+Despliegue en Prefect

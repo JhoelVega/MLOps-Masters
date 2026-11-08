@@ -12,6 +12,7 @@ dependencies = [
     "fastapi (>=0.139,<0.140)",
     "mlflow (==3.17.0)",
     "scikit-learn (==1.9.1)",
+    "xgboost (>=3.1,<4.0)",
     "pandas (==3.0.6)",
     "numpy (==2.5.4)",
     "pyyaml (==6.0.3)"
@@ -26,4 +27,3 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "9.1.1"
-xgboost = "^3.1.0"

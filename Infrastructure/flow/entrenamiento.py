@@ -9,7 +9,7 @@ import yaml
 from mlflow import MlflowClient
 from sklearn.model_selection import train_test_split
 
-from domain.modelo import (
+from domain.Models import (
     construir_modelo,
     resolver_features,
     calcular_metricas,
@@ -127,24 +127,33 @@ def registrar_modelo(
     model_info = mlflow.sklearn.log_model(
         sk_model=modelo,
         artifact_path="model",
+        registered_model_name=model_name,
+        skops_trusted_types=[
+            "xgboost.core.Booster",
+            "xgboost.sklearn.XGBClassifier",
+        ],
     )
 
     client = MlflowClient()
 
-    try:
-        client.create_registered_model(
-            model_name
-        )
-    except Exception:
-        pass
-
-    version = client.create_model_version(
-        model_name,
-        model_info.model_uri,
-        mlflow.active_run().info.run_id,
+    run_id = mlflow.active_run().info.run_id
+    versions = client.search_model_versions(
+        f"name='{model_name}'"
     )
+    run_versions = [
+        version
+        for version in versions
+        if version.run_id == run_id
+    ]
+    if not run_versions:
+        raise RuntimeError(
+            f"MLflow no registró una versión para el run {run_id}"
+        )
 
-    nueva_version = version.version
+    nueva_version = max(
+        run_versions,
+        key=lambda version: int(version.version),
+    ).version
 
     minimo_auc = config["evaluation"]["min_auc"]
 
