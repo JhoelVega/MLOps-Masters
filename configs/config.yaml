@@ -24,3 +24,10 @@ training:
 
 evaluation:
   min_auc: 0.8
+inference:
+  drift_level: 0.0
+  batch_size: 200
+  random_state: 42
+
+drift:
+  feature_threshold: 0.30
