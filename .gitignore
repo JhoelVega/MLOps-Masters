@@ -223,3 +223,6 @@ __marimo__/
 mlruns/
 mlflow.db
 mlflow_store/
+# Artefactos generados por los pipelines
+# splits, batches y reports SÍ se versionan como evidencia de la práctica
+predictions/
