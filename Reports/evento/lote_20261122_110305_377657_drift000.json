@@ -1,0 +1,23 @@
+{
+  "lote": "lote_20261122_110305_377657_drift000",
+  "drift_level": 0.0,
+  "n_lote": 200,
+  "proporcion_referencia": {
+    "0": 0.25,
+    "1": 0.25,
+    "2": 0.25,
+    "3": 0.25
+  },
+  "proporcion_lote": {
+    "0": 0.285,
+    "1": 0.185,
+    "2": 0.23,
+    "3": 0.3
+  },
+  "diferencia_max": 0.065,
+  "chi2": 6.68,
+  "p_valor": 0.0828277,
+  "alpha": 0.05,
+  "drift": false,
+  "alerta": false
+}
