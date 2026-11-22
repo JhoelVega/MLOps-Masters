@@ -1,0 +1,14 @@
+{
+  "drift_level": 0.0,
+  "batch_size": 200,
+  "random_state": 42,
+  "features_con_drift": [],
+  "proporcion_objetivo_esperada": {
+    "0": 0.25,
+    "1": 0.25,
+    "2": 0.25,
+    "3": 0.25
+  },
+  "lote": "lote_20261122_110305_377657_drift000",
+  "creado": "2026-11-22T11:03:05"
+}

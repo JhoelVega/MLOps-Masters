@@ -1,0 +1,19 @@
+{
+  "drift_level": 0.3,
+  "batch_size": 200,
+  "random_state": 42,
+  "features_con_drift": [
+    "ram",
+    "battery_power",
+    "px_height",
+    "px_width"
+  ],
+  "proporcion_objetivo_esperada": {
+    "0": 0.205,
+    "1": 0.205,
+    "2": 0.235,
+    "3": 0.355
+  },
+  "lote": "lote_20261122_110318_210537_drift030",
+  "creado": "2026-11-22T11:03:18"
+}
