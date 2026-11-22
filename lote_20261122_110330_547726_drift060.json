@@ -1,0 +1,40 @@
+{
+  "lote": "lote_20261122_110330_547726_drift060",
+  "drift_level": 0.6,
+  "n_columnas": 20,
+  "columnas_con_drift": [
+    "battery_power",
+    "int_memory",
+    "mobile_wt",
+    "px_height",
+    "px_width",
+    "ram",
+    "talk_time"
+  ],
+  "n_columnas_con_drift": 7,
+  "fraccion_con_drift": 0.35,
+  "umbral": 0.3,
+  "alerta": true,
+  "p_valores": {
+    "battery_power": 1.44541e-16,
+    "clock_speed": 0.625522,
+    "fc": 1.0,
+    "int_memory": 8.13633e-15,
+    "m_dep": 0.346902,
+    "mobile_wt": 8.9016e-13,
+    "n_cores": 0.999998,
+    "pc": 0.828311,
+    "px_height": 1.79044e-25,
+    "px_width": 1.02561e-21,
+    "ram": 7.7815e-34,
+    "sc_h": 0.391183,
+    "sc_w": 0.667708,
+    "talk_time": 4.94141e-20,
+    "blue": 0.250506,
+    "dual_sim": 0.818223,
+    "four_g": 0.736798,
+    "three_g": 0.372223,
+    "touch_screen": 0.330897,
+    "wifi": 0.229186
+  }
+}
