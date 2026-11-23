@@ -49,3 +49,10 @@ Crear Pipeline de inferencia se cargó el modelo por su alias champion.
 API de inferencia: se cargó el modelo champion.
 
 Despliegue en Prefect
+
+## Actividad 3: Monitoreo, drift y CI
+Drift emulado en la inferencia
+
+Pipelines de detección de drift
+
+Tests
